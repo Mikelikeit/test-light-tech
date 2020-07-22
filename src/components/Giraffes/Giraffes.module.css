@@ -1,0 +1,30 @@
+.giraffes {
+    text-align: center;
+}
+
+.giraffesElements {
+    margin-left: 51px;
+    margin-top: 160px;
+    display: grid;
+    grid-template-columns: repeat(4, 271px);
+}
+
+.plus {
+    width: 37px;
+    height: 37px;
+    background: #668663;
+    border-radius: 52px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+
+}
+
+.plusText {
+    color: #668663;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+}
+

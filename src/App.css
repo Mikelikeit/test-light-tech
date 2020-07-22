@@ -1,0 +1,19 @@
+
+.App {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(294px, auto) minmax(1133px, auto) auto;
+    grid-template-rows: minmax(900px, auto);
+}
+
+
+.App .content {
+    border-radius: 25px;
+    border: 1px solid #000000;
+}
+.App .navbar{
+    background-color: #668663;
+    border-radius: 25px;
+}

@@ -1,0 +1,48 @@
+.navbarItems a {
+    align-content: center;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.logo {
+    padding: 5px 201px 55px 34px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 10px;
+}
+
+.logotext {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 10px;
+    color: #FFFFFF;
+}
+
+.menu {
+    max-width: 237px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: start;
+}
+
+.menu div {
+    background-color: #567354;
+    border-radius: 52px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.active div {
+    background-color: #FFFFFF;
+    color: #567354;
+    font-weight: bold;
+}
+
+.menu img {
+ margin-right: 20px;
+}
+
+
+
+
