@@ -5,8 +5,6 @@ import infoSexImg from "../../../image/info/sex.png"
 import infoWeightImg from "../../../image/info/weight.png"
 import infoGrowthImg from "../../../image/info/growth.png"
 
-
-
 const Giraffe = (props) => {
     return (
         <div className={ styles.girItem }>
