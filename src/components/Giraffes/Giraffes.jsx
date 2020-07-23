@@ -38,7 +38,7 @@ const Giraffes = (props) => {
             <div className={styles.giraffesElements}>
                 {isFormVisible && (
                     <div className={styles.gElement}>
-                        <GiraffeForm onSubmit={onSubmit} />
+                        <GiraffeForm onSubmit={onSubmit} onCancel={() => setFormVisible(false)}/>
                     </div>
                 )}
                 {GiraffesElements}
